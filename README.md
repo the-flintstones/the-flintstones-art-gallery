@@ -1,27 +1,25 @@
-About
+# Flintstones Art Gallery — repo
 
-This repository contains the codebase and operational assets for the Flintstones Art Gallery website. Purpose-built to present a curated collection of artwork inspired by the Flintstones aesthetic, the project is engineered for high availability, fast load times, and straightforward contributor workflows. The repo bundles the front-end site, image optimization pipeline, CI/CD configuration, and documentation required to run, update, and scale the site in a production environment.
+Yabba-dabba-doo! 👋 Welcome to the Flintstones Art Gallery codebase.  
+I’m Fred — owner, chief pebble-polisher, and the fellow who insists that every artwork looks better with a little club polish. This repo contains the front-end, asset pipeline, build scripts, and everything needed to show off our Stone Age-inspired collection.
 
-Key deliverables
+## Backstory
+Fred started this gallery to celebrate ancient-modern art: rock murals, chisel portraits, and animated fossils.
+The pebble trail is how you find the good stuff.
 
-Production-ready, responsive gallery UI with image lightbox, filtering, and metadata display.
+## What’s in this repository
+- Production-ready, responsive gallery UI with image lightbox, filtering, and metadata display.
+- Image optimization pipeline (resize, WebP conversion, lazy loading) for fast load times.
+- SEO + accessibility-forward markup (Open Graph, sitemap).
+- CI/CD workflows for continuous builds and near-zero downtime deployments.
+- Contribution guidelines and a content-staging workflow (artists may need to sign license placeholders).
 
-Automated asset optimization (resizing, WebP conversion, lazy loading) to minimize TTI and bandwidth.
+## Key deliverables
+- Paginated gallery grid with search and tags
+- High-performance lazy-loading + progressive image delivery
+- Metadata-driven pages: title, artist, year, provenance
+- Static export + SSR-compatible structure (works on GitHub Pages / Vercel / Netlify)
+- Automated tests for build integrity and link validation
 
-SEO and accessibility-first structure (semantic markup, Open Graph tags, sitemap).
-
-CI/CD pipeline for continuous builds and zero-downtime deployments.
-
-Contribution guidelines, content staging workflow, and license placeholder for artwork rights management.
-
-Core features
-
-Paginated gallery grid with search and tag filters
-
-High-performance lazy-loading and progressive image delivery
-
-Metadata-driven pages (title, artist, year, provenance) for editorial and archival use
-
-Static export + SSR-compatible structure for flexible hosting (GitHub Pages / Netlify / Vercel)
-
-Automated tests for build integrity and link validation
+## Contact
+If you find a bug in the demo site or a broken image, send a cheerful note to `curator@flintstone.art` — but remember, the true trail is in history - that's what the gallery is all about. Yabba-dabba-doo!

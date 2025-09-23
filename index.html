@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Flintstones — Standalone (embedded images)</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .sr-only {
+      position: absolute !important;
+      height: 1px; width: 1px;
+      overflow: hidden;
+      clip: rect(1px, 1px, 1px, 1px);
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav container" aria-label="Main navigation">
+    <div class="logo"><h3>Flintstones Art Gallery</h3></div>
+    <div style="width:110px"></div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1 class="sr-only">Flintstones Gallery</h1>
+
+      <h1 class="title" id="animated-heading" aria-hidden="true">
+        <span class="line">Flintstones</span>
+        <span class="line">Gallery</span>
+      </h1>
+
+      <div class="subtitle">Curated selection — Fred &amp; Barney's playful picks from Bedrock</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="row">
+        <div class="col-half">
+          <div class="quote" id="q1">
+            Fred and Barney curate Bedrock’s highlights—humorous relics, bold carvings, and personal stories.
+            Enjoy their playful selection and discover hidden details.
+          </div>
+        </div>
+        <div class="col-half">
+          <figure class="image-block" aria-hidden="true">
+            <img class="embedded" src="assets/fred-barney.jpg" alt="Fred and Barney portrait">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="image-block" style="margin-bottom:18px;">
+        <img class="embedded" src="assets/group.jpg" alt="Flintstones group photo">
+      </div>
+
+      <div>
+        <h2 class="heading">Meet the family</h2>
+        <p class="meta">Wilma, Fred, Barney, Betty and the rest — what a charming, chaotic bunch; their family moments are full of laughter and stone-age mischief.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="row">
+        <div class="col-half">
+          <div class="quote" id="q2">
+            Welcome to the Bedrock Antiquities Museum’s virtual gallery. At the recent gala, Fred and Barney displayed several unusual photographs and artifacts — Wilma captured a few memorable shots from the event. Wander through the rooms and pay attention to details; sometimes the smallest ornament hides a secret.
+          </div>
+        </div>
+        <div class="col-half">
+          <figure class="image-block" aria-hidden="true" style="max-width:320px;">
+            <img class="embedded" src="assets/preview.jpg" alt="Small preview of gallery">
+          </figure>
+          <div class="byline">Enjoy the discovery! — Fred &amp; Barney</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-bottom:80px">
+      <div class="row">
+        <div class="col-half">
+          <h2 class="heading">Curated Selection</h2>
+          <p class="meta">Fred and Barney show pieces from Bedrock — humorous relics, bold carvings, and personal errands turned into stories.</p>
+        </div>
+        <div class="col-half" style="display:flex;align-items:center;justify-content:center">
+          <div style="max-width:320px">
+            <figure class="image-block" aria-hidden="true">
+              <img class="embedded" src="assets/artifact.jpg" alt="Artifact preview">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="credit">Made by <strong><a href="https://www.instagram.com/the_flintstones_ctf/">@the_flintstones_ctf</a></strong></div>
+      <div class="meta">© <span id="year"></span> Bedrock Gallery</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
