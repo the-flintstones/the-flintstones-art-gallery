@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 id,first_name,last_name,role,email
 1,Fred,Flintstone,Founder,fred.flintstone@flintstone.art
 2,Wilma,Flintstone,Curator,wilma.flintstone@flintstone.art
 3,Barney,Rubble,Facilities,barney.rubble@flintstone.art
 4,Betty,Rubble,Marketing,betty.rubble@flintstone.art
+=======
+id,first_name,last_name,role,email
+1,Fred,Flintstone,Founder,fred.flintstone@flintstone.art
+2,Wilma,Flintstone,Curator,wilma.flintstone@flintstone.art
+3,Barney,Rubble,Facilities,barney.rubble@flintstone.art
+4,Betty,Rubble,Marketing,betty.rubble@flintstone.art
+>>>>>>> d2b95820ecc3b93a47095929fa230a9922d5e399
 5,Dino,Exhibit Mascot,Mascot,dino.mascot@flintstone.art
